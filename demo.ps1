@@ -1,0 +1,2 @@
+"amsiutils"
+"invoke-mimikatz"
