@@ -1,0 +1,5 @@
+C:\Users\a_cha\Desktop\AmsiBypass\AmsiScanBufferBypass\ASBBypass\bin\Release\ASBBypass.dll
+C:\Users\a_cha\Desktop\AmsiBypass\AmsiScanBufferBypass\ASBBypass\bin\Release\ASBBypass.pdb
+C:\Users\a_cha\Desktop\AmsiBypass\AmsiScanBufferBypass\ASBBypass\obj\Release\ASBBypass.csproj.CoreCompileInputs.cache
+C:\Users\a_cha\Desktop\AmsiBypass\AmsiScanBufferBypass\ASBBypass\obj\Release\ASBBypass.dll
+C:\Users\a_cha\Desktop\AmsiBypass\AmsiScanBufferBypass\ASBBypass\obj\Release\ASBBypass.pdb
