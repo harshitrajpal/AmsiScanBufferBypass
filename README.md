@@ -1,5 +1,11 @@
 # AmsiScanBufferBypass
 
+##Original code here: https://github.com/rasta-mouse/AmsiScanBufferBypass
+This is a compiled DLL version for the CS file used by Daniel Duggan for memory hijacking to bypass AmsiScanBuffer() bypass
+
+#NOTE:
+Make sure you rename the main folder to "Project" or something else as "AmsiScanBufferBypass" string is blacklisted by amsi and mere "cd" command won't run if the name isn't changed.
+
 ## Usage
 ### PowerShell
 
@@ -28,14 +34,12 @@ At line:1 char:1
 
 ### C#
 
-Can be compiled to a DLL and loaded via reflection, or included in a larger .NET Assembly (e.g. [SharpSploit](https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Evasion/Amsi.cs)).
-
 ```
-PS > [System.Reflection.Assembly]::LoadFile("D:\Tools\ASBBypass\ASBBypass\bin\Release\ASBBypass.dll")
+PS > [System.Reflection.Assembly]::LoadFile("C:\Users\hex\Project\ASBBypass\ASBBypass\bin\Release\ASBBypass.dll")
 
 GAC    Version        Location
 ---    -------        --------
-False  v4.0.30319     D:\Tools\ASBBypass\ASBBypass\bin\Release\ASBBypass.dll
+False  v4.0.30319     C:\Users\hex\Project\ASBBypass\ASBBypass\bin\Release\ASBBypass.dll
 
 
 PS > [Amsi]::Bypass()
@@ -49,6 +53,3 @@ At line:1 char:1
 ```
 
 Also works with `Assembly.Load` in .NET 4.8.
-
-![Without AMSI Bypass](Image1.png)
-![With AMSI Bypass](Image2.png)
